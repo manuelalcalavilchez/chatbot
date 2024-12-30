@@ -1,4 +1,4 @@
-import { AI_MODEL, GENERATION_PARAMS, hf } from './config';
+import { AI_MODEL, GENERATION_PARAMS, hf } from '../config/config';
 
 export const obtenerRespuestaIA = async (mensaje) => {
   try {
